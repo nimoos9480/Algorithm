@@ -22,7 +22,6 @@ class Solution {
 
     // 다른 사람 풀이
     class Solution {
-
     public int[] solution(int[] num_list) {
         int[] answer = new int[5];
         Arrays.sort(num_list);
