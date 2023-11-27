@@ -6,9 +6,7 @@ class Solution {
         for(int i=0; i<array.length; i++) {
             if(array[i] > height) {
                 answer++;
-            } else {
-                answer = 0;
-            }
+            } 
         }
         return answer;
     }
