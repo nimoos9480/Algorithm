@@ -3,8 +3,7 @@ class Solution {
         int answer = 0;
 
         for(int a=1; a<=n; a++) {
-            int b = n / a;
-            if(a * b == n) {
+            if(n % a == 0) {
                 answer++;
             }
         }
